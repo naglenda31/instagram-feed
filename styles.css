@@ -22,11 +22,11 @@ h2{
     font-size: 20px;
 }
 
-#heading{
+.main-heading{
     width: 550px;
 }
 
-#post-wrapper{
+.post-wrapper{
     background-color: rgb(240, 240, 240);
     flex-direction: column;
     align-items: center;
@@ -34,12 +34,11 @@ h2{
     width: 100%;
 }
 
-div[class*='header']{
-    display: flex;
+.header{
     margin: auto 15px;
 }
 
-div[class*='footer']{
+.footer{
     margin-left: 20px;
 }
 
@@ -58,10 +57,6 @@ hr{
     border-top: 1px solid rgba(128,128,128,0.1)
 }
 
-.footer2{
-    margin-bottom: 20px;
-}
-
 .post{
     max-width: 550px;
     background: white;
@@ -72,7 +67,7 @@ p{
     font-size: 14px;
 }
 
-.photo4{
+.last-photo{
     margin: 80px auto;
 }
 
